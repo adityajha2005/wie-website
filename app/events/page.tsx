@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
 import { GlassButton } from "../components/ui/glass-button"
 
+
 const events = [
   { id: 1, title: "Tech Talk: AI in Healthcare", date: "2024-01-15", time: "14:00" },
   { id: 2, title: "Workshop: Web Development Basics", date: "2024-01-22", time: "10:00" },
