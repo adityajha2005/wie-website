@@ -1,22 +1,23 @@
 "use client"
 import { GlassButton } from "./components/ui/glass-button"
 import { PictureCarousel } from "./components/picture-carousel"
-import { motion } from "framer-motion"
-
+import { motion } from 'framer-motion';
 
 export default function Home() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center h-[calc(100vh-80px)] max-w-7xl mx-auto px-4">
+    <div 
+      className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center h-[calc(100vh-80px)] max-w-7xl mx-auto px-4"
+    >
       <motion.div
-        className="space-y-8 relative z-10"
+        className="space-y-8 relative z-10 flex flex-col justify-center items-center"
         initial={{ opacity: 0, x: -20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ delay: 0.2 }}
       >
-        <h1 className="text-4xl md:text-6xl font-bold text-white">
+<h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white text-center mt-[-100px] sm:mt-[-150px] md:mt-[-200px]">
           Unleash the many that you are with WIE, MUJ.
         </h1>
-        <div className="flex gap-4 items-center">
+        <div className="flex gap-4 items-center justify-center">
           <GlassButton variant="pill" size="lg">
             GET STARTED
           </GlassButton>
@@ -39,4 +40,3 @@ export default function Home() {
     </div>
   )
 }
-

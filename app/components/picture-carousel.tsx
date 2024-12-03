@@ -10,12 +10,14 @@ export function PictureCarousel() {
           className="-rotate-45 overflow-hidden rounded-lg bg-white/10 backdrop-blur-sm aspect-square"
         >
           <Image
-            src={`/placeholder.svg?height=300&width=300`}
-            alt={`Carousel image ${index}`}
-            width={300}
-            height={300}
-            className="w-full h-full object-cover"
-          />
+  src="/white.jpg"
+  alt={`Carousel image ${index}`}
+  width={300}
+  height={300}
+  className="w-full h-full object-cover"
+/>
+
+
         </div>
       ))}
     </div>
