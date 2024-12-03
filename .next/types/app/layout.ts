@@ -1,4 +1,4 @@
-// File: E:\wie-website\wie-website\app\layout.tsx
+// File: C:\projects\wie-website\app\layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

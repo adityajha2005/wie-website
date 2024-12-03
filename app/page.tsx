@@ -3,6 +3,7 @@ import { GlassButton } from "./components/ui/glass-button"
 import { PictureCarousel } from "./components/picture-carousel"
 import { motion } from "framer-motion"
 
+
 export default function Home() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center h-[calc(100vh-80px)] max-w-7xl mx-auto px-4">

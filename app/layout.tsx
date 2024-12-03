@@ -3,6 +3,7 @@ import { Navigation } from "./components/navigation"
 import { GoogleGeminiEffect } from "./components/ui/google-gemini-effect"
 import { AnimatePresence, motion } from "framer-motion"
 import { usePathname } from "next/navigation"
+import './globals.css'
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname()
